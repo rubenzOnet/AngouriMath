@@ -7,15 +7,6 @@ using System.Text.Json;
 using System.Text.RegularExpressions;
 
 
-
-string input = "The quick brown fox";
-string pattern = "\\w+";
-MatchCollection matches = Regex.Matches(input, pattern);
-foreach (Match match in matches)
-    Console.WriteLine(match.Value);
-
-
-
 // string ecuacion = "40/-5";
 // string ecuacion = "6*45/12";
 // string ecuacion = "6*45/-12";
