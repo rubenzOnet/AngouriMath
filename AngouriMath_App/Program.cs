@@ -14,7 +14,7 @@ MatchCollection matches = Regex.Matches(input, pattern);
 foreach (Match match in matches)
     Console.WriteLine(match.Value);
 
-
+// este es un codigo de ejemplo
 
 // string ecuacion = "40/-5";
 // string ecuacion = "6*45/12";
